@@ -1,0 +1,56 @@
+.nav-style a{
+    font-size: 18px;
+    margin-right: 20px;
+}
+nav ul {
+margin-right: 20px;
+}
+
+.cover {
+    height: 500px;
+    
+    background-color: red;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img {
+width: 100%;
+}
+
+.card img {
+    object-fit: cover;
+    
+    height: 300px;
+
+
+} 
+
+.header {
+    background-color: rgb(32, 32, 32);
+    color: rgb(231, 231, 231);
+    font-family: fantasy;
+    padding: 5px 20px;
+}
+
+.cards_div {
+    margin-top: 40px;
+}
+
+.card{
+    padding: 3px;
+}
+
+.newsletter_container {
+    text-align: center;
+}
+
+.page-footer, .footer-copyright {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-top: 100px;
+}

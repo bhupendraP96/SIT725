@@ -8,13 +8,127 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
+    <header>
+      <div class="header">
+        <h1> <i class="medium material-icons">camera_alt</i>
+        Vupen Photography</h1>
+      </div>
+
+    </header>
     
+    
+  <nav>
+    <div class="nav-wrapper brown lighten-3">
+    
+      <ul id="nav-mobile" class="right nav-style">
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">About me</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="cover">
+     <img src="./images/cover.jpg" alt="cover image for website" >
+    </div>
+
+      
+<!--Cards-->
+      <div class="row cards_div">
+<!--Card 1-->
+        <div class="col s12 m4">
+          <div class="card">
+            <span class="card-title black-text">Lightroom Presets</span>
+            <div class="card-image">
+              <img src="./images/lightroom.jpg">
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">show more..</a>
+            </div>
+          </div>
+        </div>
+<!--Card 2-->
+
+        <div class="col s12 m4">
+          <div class="card">
+            <span class="card-title black-text">Wedding Photography</span>
+            <div class="card-image">
+              <img src="./images/wedding.jpg">
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">show more..</a>
+            </div>
+          </div>
+        </div>
+
+<!--Card 3-->
+
+        <div class="col s12 m4">
+          <div class="card">
+            <span class="card-title black-text">Merchandise</span>
+            <div class="card-image">
+              <img src="./images/merch.jpg">
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">show more..</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    <!--Newsletter section-->
+    <div class="container newsletter_container">
+      <h2>Newsletter</h2>
+      <p>Subscribe to our newsletter for new products and services.</p>
+      <div class="input-field col s12">
+        <form onsubmit="return false">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+          <p></p>
+          <button id="clickMeButton" class="btn waves-effect waves-light black" type="submit" name="action">Submit
+            <i class="material-icons right">email</i>
+          </button>
+        </form>
+          <p class="message"></p>
+      </div>
+
+
+    </div>
+    
+  </main>
+
+
+    <footer class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" >Thank you!!</a>
+      </div>
+  </footer>
 
     <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    Test
+    <script type="text/javascript" src="js/index.js"></script>
+
   </body>
 </html>
